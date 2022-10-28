@@ -7,6 +7,7 @@ const TopImage = () => {
         <img src={image} alt="profile-photo" className="profile-image" />
       </div>
       <p className="username">Paul Oluwatoni Ariyo-Adeoye</p>
+      <p style={{ display: "none" }}>Paul Ariyo-Adeoye</p>
     </div>
   );
 }

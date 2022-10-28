@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 export const data = [
   {
     id: "twitter",
-    Text: "John Doe",
+    Text: "Twitter",
     Links: "https://twitter.com/tonnipaul",
   },
   {

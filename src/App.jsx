@@ -1,22 +1,18 @@
-import './App.css'
-import LinkCard from './cards/LinkCard'
-import TopImage from './components/topImage/TopImage'
-import { data } from './objectFiles/linksData'
+import "./App.css";
+import Footer from "./components/footer/Footer";
+import Main from "./components/main/Main";
+import TopImage from "./components/topImage/TopImage";
 
 function App() {
-
   return (
     <div className="App">
-      <TopImage />
-      <div className="gap">
-      {data.map(items => {
-        return (
-          <LinkCard key={items.id} {...items} />
-        )
-      })}
+      <div className="main-container">
+        <TopImage />
+        <Main />
       </div>
-   ; </div>
-  )
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

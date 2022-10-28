@@ -1,7 +1,13 @@
-.App {
-  padding: 64px 112px;
+.main-container {
+  padding: 64px 32px;
 }
 .gap {
   display: grid;
   gap: 24px;
+}
+
+@media (max-width : 500px) {
+   .main-container{
+    padding: 64px 0 0;
+   }
 }
