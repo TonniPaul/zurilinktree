@@ -1,0 +1,7 @@
+.App {
+  padding: 64px 112px;
+}
+.gap {
+  display: grid;
+  gap: 24px;
+}
